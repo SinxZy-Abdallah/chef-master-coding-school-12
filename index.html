@@ -9,48 +9,415 @@
   <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="./public/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f1505b371c.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <header>
     <nav>
-      <div class="bgi" style="background-image: url('./public/images/banner1.jpg');">
-        <ul>
-          <li><a href="">HOME</a></li>
-          <li><a href="">ABOUT US</a></li>
-          <li><a href="">MENU LIST</a></li>
-          <li><a href="">TEAM</a></li>
-          <div id="logo">
-            <img src="./public/images/logo.png" alt="">
-          </div>
-          <li><a href="">RESERVATION</a></li>
-          <li><a href="">BLOG</a></li>
-          <li><a href="">TESTIMONIALS</a></li>
-          <li><a href="">CONTACT US</a></li>
-        </ul>
+      <ul>
+        <li><a href="">HOME</a></li>
+        <li><a href="">ABOUT US</a></li>
+        <li><a href="">MENU LIST</a></li>
+        <li><a href="">TEAM</a></li>
+        <div id="logo">
+          <img src="./public/images/logo.png" alt="">
+        </div>
+        <li><a href="">RESERVATION</a></li>
+        <li><a href="">BLOG</a></li>
+        <li><a href="">TESTIMONIALS</a></li>
+        <li><a href="">CONTACT US</a></li>
+      </ul>
     </nav>
-    <div class="item active">
-      <!-- Slide Background -->
-      <div class="bs-slider-overlay"></div>
-      <div class="bgbott" style="background-image: url('./public/images/bottom_decoration_img.png');"></div>
+    <!-- HEADER BG-->
+    <div id="banner">
+      <img src="./public/images/banner1.jpg" alt="banner1" title="banner1" class="slide-image"></div>
+    <div class="container">
+      <div class="row">
+        <div class="text">
+          <h1 id="onlyfont" data-animation="animated fadeInDown">Whatever your<span class="upper"> occasion</span>,
+            <br><span class="redf">TASTE</span> <span class="spangras">makes</span> it one<br> to <span
+              class="normaltext">remember!</span></h1>
+          <a href="#" class="btn btn-default" data-animation="animated fadeInUp">Purchase Theme</a>
+          <a href="#" class="btn btn-primary" data-animation="animated fadeInUp">Learn More</a>
+          <div class="iconeselect">
+            <a href=""><i class="fas fa-angle-right"></i></a>
+            <a href="#"><i id="onlyleft" class="fas fa-angle-left"></i></a>
+          </div>
+          <div class="icones-cercle">
+            <a href="#"><i class="fas fa-circle"></i></a>
+            <a href="#"><i class="far fa-circle"></i></a>
+            <a href="#"><i class="fas fa-circle"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
   </header>
   <!-- FIRST SECTION -->
   <section id="S1">
-    <div class="bgi" style="background-image: url('./public/images/main_bg.jpg');">
-      <div class="container">
-        <div class="row">
-          <h1><span class="redf">OUR</span> Story</h1>
-          <div class="col-5 mx-auto pb-5">
+    <div class="container">
+      <div class="doubletriangle">
+        <img id="triangle" src="./public/images/box-left-top.png" alt="">
+        <img id="triangle2" src="./public/images/box-right-top.png" alt="">
+      </div>
+      <div class="row">
+        <h1><span class="redf">OUR</span> Story</h1>
+        <div class="soustitre"><img src="./public/images/decoration_line.png" alt=""></div>
+        <div class="col-5 mx-auto pb-5">
           <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem quia sed inventore. Earum quidem
             facilis molestiae ipsum laudantium laboriosam! Sunt officia eaque nihil, ut dolorum ipsam nesciunt sed
             soluta exercitationem amet inventore placeat iste eius explicabo dolorem quaerat accusamus at eveniet
             pariatur. Sed debitis alias deleniti ea dolores magni hic, quae corrupti odio in non necessitatibus veniam
-            omnis, soluta amet, sint autem rem? Sapiente, natus provident! Aliquam vero velit similique consectetur.</span> 
-            </div>
-            <h1><span class="redf">OUR</span> Menu List</h1>
+            omnis, soluta amet, sint autem rem? Sapiente, natus provident! Aliquam vero velit similique
+            consectetur.</span>
         </div>
       </div>
-      </div>
+    </div>
+    </div>
+    </div>
+
+    <!--MENU SECOND SECTION -->
+    <section id="S2">
+      <div class="container">
+        <h1><span class="redf">OUR</span> Menu List</h1>
+        <div class="alltriangle2">
+          <img id="triangleB" src="./public/images/box-bottom-left.png" alt="">
+          <img id="triangleB2" src="./public/images/box-bottom_right.png" alt="">
+        </div>
+        <div class="menu">
+          <div id="onlyred" class="caset">
+          <div class="iconess">
+            <i class="text-danger fas fa-mug-hot"></i>
+          </div>
+          <a href="#">Breakfast</a>
+          </div>
+          <div class="caset">
+          <div class="iconess">
+          <i class="text-secondary fas fa-utensils"></i>
+          </div>
+          <a href="#">Lunch</a>
+          </div>
+          <div class="caset">
+            <div class="iconess">
+              <i class="text-secondary fas fa-pizza-slice"></i>
+            </div>
+            <a href="#">Snacks</a>
+          </div>
+          <div class="caset">
+            <div class="iconess">
+              <i class="text-secondary fas fa-mug-hot"></i>
+            </div>
+            <a href="#">Dinner</a>
+          </div>
+        </div>
+        <div class="soustitre">
+          <img src="./public/images/decoration_line.png" alt="">
+        </div>
+        <div class="allcartonlist">
+          <div class="cartonlist1">
+            <div class="boitelist">
+              <div class="img">
+                <img src="./public/images/menu_image_1.jpg" alt="">
+              </div>
+              <div class="list">
+                <span class=""><strong>Welcome Ipsum Dolor Sit. <br></strong></span>
+                <span class="grey">Lorem ipsum dolor sit, amet consectetur adipisicing Lorem ipsum.</span>
+              </div>
+              <p class="redprice">25$</p>
+              <hr>
+            </div>
+            <div class="boitelist">
+              <div class="img">
+                <img src="./public/images/menu_image_1.jpg" alt="">
+              </div>
+              <div class="list">
+                <span class=""><strong>Welcome Ipsum Dolor Sit. <br></strong></span>
+                <span class="grey">Lorem ipsum dolor sit, amet consectetur adipisicing Lorem ipsum.</span>
+              </div>
+              <p class="redprice">25$</p>
+              <hr>
+            </div>
+            <div class="boitelist">
+              <div class="img">
+                <img src="./public/images/menu_image_1.jpg" alt="">
+              </div>
+              <div class="list">
+                <span class=""><strong>Welcome Ipsum Dolor Sit. <br></strong></span>
+                <span class="grey">Lorem ipsum dolor sit, amet consectetur adipisicing Lorem ipsum.</span>
+              </div>
+              <p class="redprice">25$</p>
+              <hr>
+            </div>
+            <div class="boitelist">
+              <div class="img">
+                <img src="./public/images/menu_image_1.jpg" alt="">
+              </div>
+              <div class="list">
+                <span class=""><strong>Welcome Ipsum Dolor Sit. <br></strong></span>
+                <span class="grey">Lorem ipsum dolor sit, amet consectetur adipisicing Lorem ipsum.</span>
+              </div>
+              <p class="redprice">25$</p>
+              <hr>
+            </div>
+            <div class="boitelist">
+              <div class="img">
+                <img src="./public/images/menu_image_1.jpg" alt="">
+              </div>
+              <div class="list">
+                <span class=""><strong>Welcome Ipsum Dolor Sit. <br></strong></span>
+                <span class="grey">Lorem ipsum dolor sit, amet consectetur adipisicing Lorem ipsum.</span>
+              </div>
+              <p class="redprice">25$</p>
+              <hr>
+            </div>
+          </div>
+          <div class="cartonlist2">
+            <div class="boitelist">
+              <div class="img">
+                <img src="./public/images/menu_image_1.jpg" alt="">
+              </div>
+              <div class="list">
+                <span class=""><strong>Welcome Ipsum Dolor Sit. <br></strong></span>
+                <span class="grey">Lorem ipsum dolor sit, amet consectetur adipisicing Lorem ipsum.</span>
+              </div>
+              <p class="redprice">25$</p>
+              <hr>
+            </div>
+            <div class="boitelist">
+              <div class="img">
+                <img src="./public/images/menu_image_1.jpg" alt="">
+              </div>
+              <div class="list">
+                <span class=""><strong>Welcome Ipsum Dolor Sit. <br></strong></span>
+                <span class="grey">Lorem ipsum dolor sit, amet consectetur</span>
+              </div>
+              <p class="redprice">25$</p>
+              <hr>
+            </div>
+            <div class="boitelist">
+              <div class="img">
+                <img src="./public/images/menu_image_1.jpg" alt="">
+              </div>
+              <div class="list">
+                <span class=""><strong>Welcome Ipsum Dolor Sit. <br></strong></span>
+                <span class="grey">Lorem ipsum dolor sit, amet consectetur adipisicing Lorem ipsum.</span>
+              </div>
+              <p class="redprice">25$</p>
+              <hr>
+            </div>
+            <div class="boitelist">
+              <div class="img">
+                <img src="./public/images/menu_image_1.jpg" alt="">
+              </div>
+              <div class="list">
+                <span class=""><strong>Welcome Ipsum Dolor Sit. <br></strong></span>
+                <span class="grey">Lorem ipsum dolor sit, amet consectetur adipisicing Lorem ipsum.</span>
+              </div>
+              <p class="redprice">25$</p>
+              <hr>
+            </div>
+            <div class="boitelist">
+              <div class="img">
+                <img src="./public/images/menu_image_1.jpg" alt="">
+              </div>
+              <div class="list">
+                <span class=""><strong>Welcome Ipsum Dolor Sit. <br></strong></span>
+                <span class="grey">Lorem ipsum dolor sit, amet consectetur adipisicing Lorem ipsum.</span>
+              </div>
+              <p class="redprice">25$</p>
+              <hr>
+            </div>
+          </div>
+        </div>
+    </section>
   </section>
+  <section id="S3">
+    <div class="container">
+      <div class="chef">
+        <img src="./public/images/chef1.png" alt="">
+        <span>Lorem ipsum</span>
+      </div>
+      <div class="chef">
+        <img src="./public/images/chef2.png" alt="">
+        <span>Lorem ipsum</span>
+      </div>
+      <div class="chef">
+        <img src="./public/images/chef3.png" alt="">
+        <span>Lorem ispum</span>
+      </div>
+      <div class="chef">
+        <img src="./public/images/chef4.png" alt="">
+        <span>Lorem ipsum</span>
+      </div>
+    </div>
+  </section>
+  <!-- FORM -->
+  <section id="S4">
+    <div class="container">
+      <div class="alltrianglegrey">
+        <img id="trianglegrey" src="./public/images/box-left-top-grey.png" alt="">
+        <img id="trianglegrey2" src="./public/images/box-right-top-grey.png" alt="">
+      </div>
+      <h1><span id="red">Book</span> Your Table</h1>
+      <div class="soustitre"><img src="./public/images/decoration_line.png" alt=""></div>
+      <div class="allform">
+        <form class="col-2" action="text">
+          <input type="email" name="email" id="">
+          <input type="text">
+          <input type="text">
+          <input type="datetime-local" name="" id="">
+        </form>
+        <form class="col-2" action="text">
+          <input type="number" name="" id="">
+          <input type="date" name="" id="">
+          <input type="datetime" name="" id="">
+          <input type="week" name="" id="">
+        </form>
+      </div>
+      <div class="btn">
+        <button class="btn m-5 text-white bg-danger">BOOK NOW</button>
+      </div>
+    </div>
+  </section>
+  <!-- TWO CARDs -->
+  <section id="S5">
+    <div class="container">
+      <div class="alltrianglegreyB">
+        <img id="trianglegreyB" src="./public/images/box-bottom-left-grey.png" alt="">
+        <img id="trianglegreyB2" src="./public/images/box-bottom_right-grey.png" alt="">
+      </div>
+      <h1><span id="red">Our</span> Blog</h1>
+      <div class="soustitre"><img src="./public/images/decoration_line.png" alt=""></div>
+      <div class="row">
+        <div class="allcard">
+          <div class="card">
+            <img src="./public/images/blog_img1.jpg" alt="">
+            <span>12 April 2017/ 20 Comment/ 35 Likes</span>
+            <div class="doubleP">
+              <h5>Lorem Ipsum</h5>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, natus.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./public/images/blog_img2.jpg" alt="">
+            <span>12 April 2017/ 20 Comment/ 35 Likes</span>
+            <div class="doubleP">
+              <h5>Lorem Ipsum</h5>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, natus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="btn">
+        <button class="btn text-white bg-danger">KNOW MORE</button>
+      </div>
+    </div>
+  </section>
+  <!-- TWO CASE TESTIMONIALS -->
+  <section id="S6">
+    <div class="container">
+      <h1><span id="red">CLIENT</span> Testimonials</h1>
+      <div class="allDFLEX">
+        <div class="imgtest">
+          <img src="./public/images/testimonial1.jpg" alt="">
+        </div>
+        <div class="case col-5">
+          <h5>Lorem Ipsum</h5>
+          <span class="fw">Manager</span>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat explicabo voluptatibus quaerat deserunt
+            impedit deleniti nobis odit.</p>
+        </div>
+        <div class="case col-5">
+          <h5>Lorem Ipsum</h5>
+          <span class="fw">Manager</span>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat explicabo voluptatibus quaerat deserunt
+            impedit deleniti nobis odit.</p>
+        </div>
+        <div class="imgtest">
+          <img src="./public/images/testimonial1.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- CONTACT -->
+  <section id="S7">
+    <div class="container">
+      <h1><span id="red">Our</span> Contact</h1>
+      <div class="soustitre"><img src="./public/images/decoration_line.png" alt=""></div>
+      <div class="bgred">
+        <div class="row">
+          <div class="logoo">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="row">
+            <span>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Consequatur, repellendus!</span>
+            <hr class="bg-white">
+          </div>
+          <i class="fas fa-phone-alt"></i>
+          <span>+32 88 67 82 45</span>
+          <hr class="">
+          <i class="fas fa-envelope"></i>
+          <span>abdallahhouriya23@gmail.com</span>
+        </div>
+      </div>
+      <div class="bottomdeco"><img src="./public/images/footer_bottom_decoration_img.png" alt=""></div>
+    </div>
+  </section>
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="col-4">
+        <h2>ABOUT US</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa ab, minima nemo praesentium iusto tempora
+          quasi voluptatibus molestias illum earum...</p>
+        <div class="icones">
+          <a href=""><i class="fab fa-facebook-f"></i></a>
+          <a href=""><i class="fab fa-google-plus-g"></i></a>
+          <a href=""><i class="fab fa-pinterest-p"></i></a>
+          <a href=""><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <!-- INSTA -->
+      <div class="col-4">
+        <h2>INSTAGRAM</h2>
+        <div class="imginsta">
+          <img src="./public/images/instragram_gallery_img1.jpg" alt="">
+          <img src="./public/images/instragram_gallery_img2.jpg" alt="">
+          <img src="./public/images/instragram_gallery_img1.jpg" alt="">
+          <img src="./public/images/instragram_gallery_img2.jpg" alt="">
+        </div>
+        <div class="imginsta2">
+          <img src="./public/images/instragram_gallery_img1.jpg" alt="">
+          <img src="./public/images/instragram_gallery_img2.jpg" alt="">
+          <img src="./public/images/instragram_gallery_img1.jpg" alt="">
+          <img src="./public/images/instragram_gallery_img2.jpg" alt="">
+        </div>
+      </div>
+      <!-- ALL BUTTON -->
+      <div class="col-4">
+        <h2>POPULARS TAGS</h2>
+        <div class="allbtn">
+          <button class="btn m-1 text-white bg-danger">Restaurant</button>
+          <button class="btn m-1 text-white bg-danger">Responsive Design</button>
+          <button class="btn m-1 text-white bg-danger">Hotel</button>
+        </div>
+        <div class="allbtn2">
+          <button class="btn m-1 text-white bg-danger">Blog Section</button>
+          <button class="btn m-1 text-white bg-danger">SEO</button>
+          <button class="btn m-1 text-white bg-danger">Cuisine</button>
+        </div>
+        <button class="btn m-1 text-white bg-danger">
+          Graphic
+        </button>
+        <button class="btn m-1 text-white bg-danger">Food</button>
+      </div>
+    </div>
+    <div class="red bg-danger">
+      <div class="container"></div>
+    </div>
+  </footer>
 </body>
+
 </html>
